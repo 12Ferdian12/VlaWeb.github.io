@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/Tailwind/output.css" rel="stylesheet">
+  <title></title>
+</head>
+<body class="bg-Back">
+    <nav class="flex text-second top-0 sticky container  font-bold p-10 bg-prime border-b-2 border-gray-700 justify-between">
+        <h1 class=" text-2xl ">Draken</h1>
+        <div class="flex">
+            <div class="mx-4 hover:border-b border-second">
+                <button onclick="topFunction()" id="myBtn" >Home</button>
+            </div>
+            <div class="mx-4 hover:border-b border-second">
+                <a href="#penjelasan">Penjelasan</a>
+            </div>
+            <div class="mx-4 hover:border-b border-second">
+                <a href="#jenis">jenis</a>
+            </div>
+            <div class="mx-4 hover:border-b border-second">
+                <a href="">Ciri²</a>
+            </div>
+        </div>
+    </nav>
+    <section class="bg-no-repeat" style="background-image: url(./img/R3.png);" id="Home">
+        <div class="p-44 mb-12 container text-black  font-bold  ">
+            <h1 class="text-4xl mx-4" >Apakah Anda Tahu <span class="text-second" style="-webkit-text-fill-color: #D4FAFC;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;">Reptile?</span></h1>
+            <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo <br> ut aliquid blanditiis ipsum <br> temporibus minima similique ab animi distinctio. Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Similique, quisquam!</p> 
+            <div class="p-4">
+                <a class="p-2 bg-black text-second border-2 border-black rounded" href="#penjelasan"><span class=" border-b border-second">Mulai</span></a>
+            </div>
+        </div>
+    </section>
+    <section id="penjelasan">
+        <div class="p-44 border border-black container bg-prime">
+            <h1 class="text-left text-4xl text-second font-bold mb-12" style="-webkit-text-fill-color: #D4FAFC;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;">Penjelasan:</h1>
+            <p class="text-white">Reptil adalah kelompok hewan vertebrata berdarah dingin dan memiliki sisik yang menutupi tubuhnya. <br> Reptilia adalah tetrapoda dan menelurkan telur yang embrionya diselubungi oleh membran amniotik. <br> Sekarang ini mereka menghidupi setiap benua kecuali Antarktika</p>
+        </div>
+    </section>
+    <section id="jenis">
+        <div class="p-44 ">
+            <h1 class="p-4 text-4xl font-bold mb-12">Jenis-Jenis Reptile:</h1>
+            <div class="flex">
+                <div class="mx-4 border w-96 h-[500px] rounded border-black bg-second">
+                    <img class="border-b border-black" src="./img/Buaya.jpg" alt="Buaya">
+                    <div class="m-4">
+                        <h1 class="font-bold text-4xl">Buaya:</h1>
+                        <p>Buaya adalah reptil bertubuh besar yang hidup di air. Secara ilmiah, buaya meliputi seluruh spesies anggota famili Crocodylidae</p>
+                    </div>
+                </div>
+                <div class="mx-4 border w-96 h-[500px] rounded border-black bg-second">
+                    <img class="border-b border-black" src="./img/KMD.jpeg" alt="Komodo">
+                    <div class="m-4">
+                        <h1 class="font-bold text-4xl">Komodo:</h1>
+                        <p>Komodo atau lengkapnya biawak komodo, adalah spesies biawak besar yang terdapat di Pulau Komodo, Rinca, Flores, Gili Motang, dan Gili Dasami di Provinsi Nusa Tenggara Timur, Indonesia. Hewan ini oleh penduduk asli pulau Komodo juga disebut dengan nama setempat ora. Secara ilmiah, komodo masuk anggota famili varanidae</p>
+                    </div>
+                </div>
+                <div class="mx-4 border w-96 h-[500px] rounded border-black bg-second">
+                    <img class="border-b border-black" src="./img/IGN.jpeg" alt="Iguana">
+                    <div class="m-4">
+                        <h1 class="font-bold text-4xl">Iguana:</h1>
+                        <p>Iguana adalah marga kadal yang hidup di daerah tropis Amerika Tengah, Amerika Selatan, dan kepulauan Karibia. Kadal-kadal ini dideskripsikan pertama kali oleh seorang ahli hewan berkebangsaan Austria, Josephus Nicolaus Laurenti pada tahun 1768. Termasuk anggota famili Iguanidae</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    <section id="Ciri">
+
+    </section>
+    <section id="close">
+        
+    </section>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+            
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        //   document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

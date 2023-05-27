@@ -8,56 +8,57 @@
 </head>
 <body class="bg-Back">
     <nav class="flex text-second top-0 sticky container  font-bold p-10 bg-prime border-b-2 border-gray-700 justify-between">
-        <h1 class=" text-2xl ">Draken</h1>
-        <div class="flex">
+        <h1 class="text-3xl md:text-2xl text-black bg-gradient-to-r from-GRD to-prime ">Draken</h1>
+        <div class="hidden md:flex">
             <div class="mx-4 hover:border-b border-second">
                 <button onclick="topFunction()" id="myBtn" >Home</button>
             </div>
-            <div class="mx-4 hover:border-b border-second">
+            <div class="mx-4 hover:border-b-2 border-second">
                 <a href="#penjelasan">Penjelasan</a>
             </div>
-            <div class="mx-4 hover:border-b border-second">
+            <div class="mx-4 hover:border-b-2 border-second">
                 <a href="#jenis">jenis</a>
             </div>
-            <div class="mx-4 hover:border-b border-second">
+            <div class="mx-4 hover:border-b-2 border-second">
                 <a href="">Ciri²</a>
             </div>
         </div>
     </nav>
-    <section class="bg-no-repeat" style="background-image: url(./img/R3.png);" id="Home">
-        <div class="p-44 mb-12 container text-black  font-bold  ">
+    <section id="Home">
+        <div class="absolute w-[70px] h-[70px] md:w-full md:h-full bg-right bg-no-repeat -z-10 " style="background-image: url(./img/R3.png);"></div>
+        <div class="p-1 py-7 md:p-44 mb-12 container text-black  font-bold  ">
             <h1 class="text-4xl mx-4" >Apakah Anda Tahu <span class="text-second" style="-webkit-text-fill-color: #D4FAFC;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;">Reptile?</span></h1>
-            <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo <br> ut aliquid blanditiis ipsum <br> temporibus minima similique ab animi distinctio. Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Similique, quisquam!</p> 
+            <p class="p-4 w-[400px] font-bold text-xl md:text-base  md:w-[500px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo  ut aliquid blanditiis ipsum  temporibus minima similique ab animi distinctio. Lorem ipsum dolor sit amet consectetur  adipisicing elit. Similique, quisquam!</p> 
             <div class="p-4">
-                <a class="p-2 bg-black text-second border-2 border-black rounded" href="#penjelasan"><span class=" border-b border-second">Mulai</span></a>
+                <a class="p-2 bg-black text-second border-2 border-black rounded z-50" href="#penjelasan"><span class=" border-b border-second">Mulai</span></a>
             </div>
         </div>
     </section>
     <section id="penjelasan">
-        <div class="p-44 border border-black container bg-prime">
-            <h1 class="text-left text-4xl text-second font-bold mb-12" style="-webkit-text-fill-color: #D4FAFC;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;">Penjelasan:</h1>
-            <p class="text-white">Reptil adalah kelompok hewan vertebrata berdarah dingin dan memiliki sisik yang menutupi tubuhnya. <br> Reptilia adalah tetrapoda dan menelurkan telur yang embrionya diselubungi oleh membran amniotik. <br> Sekarang ini mereka menghidupi setiap benua kecuali Antarktika</p>
+        <div class="md:p-44 px-5 border border-black container bg-prime">
+            <h1 class="text-left text-5xl md:text-4xl mt-10 text-second font-bold mb-12 md:mt-0" style="-webkit-text-fill-color: #D4FAFC;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;">Penjelasan:</h1>
+            <p class="text-white font-bold text-xl md:w-[600px] md:text-base mb-10 md:mb-0">Reptil adalah kelompok hewan vertebrata berdarah dingin dan memiliki sisik yang menutupi tubuhnya. Reptilia adalah tetrapoda dan menelurkan telur yang embrionya diselubungi oleh membran amniotik. Sekarang ini mereka menghidupi setiap benua kecuali Antarktika</p>
         </div>
     </section>
     <section id="jenis">
-        <div class="p-44 ">
-            <h1 class="p-4 text-4xl font-bold mb-12">Jenis-Jenis Reptile:</h1>
-            <div class="flex">
-                <div class="mx-4 border w-96 h-[500px] rounded border-black bg-second">
+        <div class="md:p-44 ">
+            <h1 class="px-10 text-4xl font-bold mt-10 mb-12">Jenis-Jenis Reptile:</h1>
+            <div class="md:flex px-5">
+                <div class="mx-4 border mb-5 w-[325px] h-[400px] md:w-96 md:h-[500px] rounded border-black bg-second">
                     <img class="border-b border-black" src="./img/Buaya.jpg" alt="Buaya">
                     <div class="m-4">
                         <h1 class="font-bold text-4xl">Buaya:</h1>
                         <p>Buaya adalah reptil bertubuh besar yang hidup di air. Secara ilmiah, buaya meliputi seluruh spesies anggota famili Crocodylidae</p>
                     </div>
                 </div>
-                <div class="mx-4 border w-96 h-[500px] rounded border-black bg-second">
+                <div class="mx-4 border mb-5 w-[325px] h-[500px] md:w-96 md:h-[500px] rounded border-black bg-second">
                     <img class="border-b border-black" src="./img/KMD.jpeg" alt="Komodo">
                     <div class="m-4">
                         <h1 class="font-bold text-4xl">Komodo:</h1>
                         <p>Komodo atau lengkapnya biawak komodo, adalah spesies biawak besar yang terdapat di Pulau Komodo, Rinca, Flores, Gili Motang, dan Gili Dasami di Provinsi Nusa Tenggara Timur, Indonesia. Hewan ini oleh penduduk asli pulau Komodo juga disebut dengan nama setempat ora. Secara ilmiah, komodo masuk anggota famili varanidae</p>
                     </div>
                 </div>
-                <div class="mx-4 border w-96 h-[500px] rounded border-black bg-second">
+                <div class="mx-4 border mb-5 w-[325px] h-[450px] md:w-96 md:h-[500px] rounded border-black bg-second">
                     <img class="border-b border-black" src="./img/IGN.jpeg" alt="Iguana">
                     <div class="m-4">
                         <h1 class="font-bold text-4xl">Iguana:</h1>
